@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Sivio.Views.ObrasView"
+             xmlns:local="clr-namespace:Sivio.Views"
+             Title="Lista de Obras">
+    <local:SivioList x:Name="SList"
+            ItemsSource="{Binding ObrasSource}"
+            HasUnevenRows="True"
+            ItemClickCommand="{Binding ItemClickCommand}">
+            <!--ItemTapped="Handle_ItemTapped"-->
+            <!--CachingStrategy="RecycleElement"-->
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <StackLayout Padding="20">
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="{Binding FKInstalacao}" FontSize="Large" HorizontalOptions="StartAndExpand"/>
+                            <Label Text="{Binding DataInicio, StringFormat='{0:dd/MM/yyyy}'}" FontSize="Medium" HorizontalOptions="EndAndExpand"/>
+                        </StackLayout>
+                        <Label Text="{Binding ResumoObra}" FontSize="Medium" Style="{DynamicResource SubtitleStyle}"/>
+                    </StackLayout>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </local:SivioList>
+</ContentPage>

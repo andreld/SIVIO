@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Sivio.Views.ObrasBasePage"
+             >
+    <ScrollView>
+        <StackLayout Padding="20,10,30,10">
+            <StackLayout.Resources>
+                <ResourceDictionary>
+                    <Style TargetType = "Label">
+                        <Setter Property="VerticalOptions" Value="CenterAndExpand"/>
+                        <Setter Property="HorizontalOptions" Value="StartAndExpand"/>
+                    </Style>
+                    <Style TargetType = "StackLayout">
+                        <Setter Property="Padding" Value="0,0,0,10"/>
+                    </Style>
+                </ResourceDictionary>
+            </StackLayout.Resources>
+            
+            <StackLayout>
+                <Label Text="Resumo" FontAttributes="Bold" FontSize="Medium"/>
+                <Label x:Name="labelResumo"/>
+            </StackLayout>
+
+            <StackLayout>
+                <Label Text="Origem dos Recursos" FontAttributes="Bold" FontSize="Medium"/>
+                <Label x:Name="labelOrigem"/>
+            </StackLayout>
+
+            <StackLayout>
+                <Label Text="Custo da Obra" FontAttributes="Bold" FontSize="Medium"/>
+                <Label x:Name="labelCusto"/>
+            </StackLayout>
+
+            <StackLayout>
+                <Label Text="Empresa responsável" FontAttributes="Bold" FontSize="Medium"/>
+                <Label x:Name="labelEmpresa"/>
+            </StackLayout>
+
+            <StackLayout>
+                <Label Text="Início das Obras" FontAttributes="Bold" FontSize="Medium"/>
+                <Label x:Name="labelDataInicio"/>
+            </StackLayout>
+
+            <StackLayout>
+                <Label Text="Prazo" FontAttributes="Bold" FontSize="Medium"/>
+                <Label x:Name="labelPrazo"/>
+            </StackLayout>
+
+            <StackLayout>
+                <Label Text="Andamento" FontAttributes="Bold" FontSize="Medium"/>
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sivio.Android", "Sivio\Sivio.Android\Sivio.Android.csproj", "{5ABE73ED-A1D7-40A2-9CCF-E0D061028AF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sivio", "Sivio\Sivio\Sivio.csproj", "{C5B393F6-56D0-4CB6-A21B-1C5F2B019807}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5ABE73ED-A1D7-40A2-9CCF-E0D061028AF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ABE73ED-A1D7-40A2-9CCF-E0D061028AF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ABE73ED-A1D7-40A2-9CCF-E0D061028AF3}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5ABE73ED-A1D7-40A2-9CCF-E0D061028AF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ABE73ED-A1D7-40A2-9CCF-E0D061028AF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5ABE73ED-A1D7-40A2-9CCF-E0D061028AF3}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{C5B393F6-56D0-4CB6-A21B-1C5F2B019807}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5B393F6-56D0-4CB6-A21B-1C5F2B019807}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5B393F6-56D0-4CB6-A21B-1C5F2B019807}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5B393F6-56D0-4CB6-A21B-1C5F2B019807}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {204D4F5D-9769-4251-8778-430581E23C70}
+	EndGlobalSection
+EndGlobal
